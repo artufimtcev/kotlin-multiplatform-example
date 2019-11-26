@@ -1,0 +1,35 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<color name="color_primary">#000000</color>
+	<color name="color_primary_dark">#000000</color>
+	<color name="color_accent">#000000</color>
+	<color name="click_overlay">#555555</color>
+	<color name="default_hint">#C6C6CB</color>
+	<color name="material_bottom_sheet_title">#8a000000</color>
+	<color name="material_bottom_sheet_item">#de000000</color>
+	
+	<!-- RepositoriesActivity -->
+	<color name="repositories_activity_repositories_constraint_layout_background_color">#F6F8FA</color>
+	<color name="view_view_holder_repo_item_constraint_layout_background_color">#FFFFFF</color>
+	<color name="view_view_holder_repo_item_constraint_layout_border_color">#D1D5DA</color>
+	<color name="view_view_holder_repo_link_text_view_text_color">#0466D6</color>
+	<color name="view_view_holder_a_cimplementation_otext_view_text_color">#24292E</color>
+	<color name="view_view_holder_author_text_view_text_color">#9FA5AD</color>
+	<color name="view_view_holder_repo_name_text_view_text_color">#24292E</color>
+	<color name="repositories_activity_search_constraint_layout_background_color">#FFFFFF</color>
+	<color name="repositories_activity_search_constraint_layout_border_color">#D1D5DA</color>
+	<color name="repositories_activity_search_edit_text_background_color">@android:color/transparent</color>
+	<color name="repositories_activity_search_edit_text_text_color">#596069</color>
+	<color name="repositories_activity_toolbar_background_color">#24292E</color>
+	<color name="repositories_activity_toolbar_text_color">#FFFFFF</color>
+	
+	<!-- WelcomeActivity -->
+	<color name="welcome_activity_welcome_constraint_layout_background_color">#FFFFFF</color>
+	<color name="welcome_activity_group_button_from_color">#3FCC5E</color>
+	<color name="welcome_activity_group_button_to_color">#32A54C</color>
+	<color name="welcome_activity_group_button_text_color">#FFFFFF</color>
+	<color name="welcome_activity_group_button_border_color">#979797</color>
+	<color name="welcome_activity_repository_searcher_text_view_text_color">#596069</color>
+	<color name="welcome_activity_github_text_view_text_color">#24292E</color>
+</resources>

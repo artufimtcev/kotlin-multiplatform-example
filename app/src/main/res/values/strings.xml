@@ -1,0 +1,19 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<string name="app_name">GithubSearcher</string>
+	
+	<!-- RepositoriesActivity -->
+	<string name="repositories_activity_title">Search Repos</string>
+	<string name="view_view_holder_repo_link_text_view_text">https://github.com/dtrupenn/Tetris</string>
+	<string name="view_view_holder_a_cimplementation_otext_view_text">A C implementation of Tetris using Pennsim through LC4</string>
+	<string name="view_view_holder_author_text_view_text">Author: dtrupenn</string>
+	<string name="view_view_holder_repo_name_text_view_text">Some Awesome GitHub Repo</string>
+	<string name="repositories_activity_search_edit_text_hint">Search…</string>
+	
+	<!-- WelcomeActivity -->
+	<string name="welcome_activity_title"></string>
+	<string name="welcome_activity_group_button_text">Start Searching</string>
+	<string name="welcome_activity_repository_searcher_text_view_text">Repository Searcher</string>
+	<string name="welcome_activity_github_text_view_text">GitHub</string>
+</resources>

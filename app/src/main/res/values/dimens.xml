@@ -1,0 +1,55 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<dimen name="material_spacing_small">8dp</dimen>
+	<dimen name="material_spacing_medium">16dp</dimen>
+	<dimen name="material_spacing_large">24dp</dimen>
+	<dimen name="material_bottom_sheet_item_size">56dp</dimen>
+	<dimen name="material_bottom_sheet_item_text_size">16sp</dimen>
+	
+	<!-- RepositoriesActivity -->
+	<dimen name="view_view_holder_repo_item_constraint_layout_radius">8dp</dimen>
+	<dimen name="view_view_holder_repo_item_constraint_layout_border_size">1dp</dimen>
+	<dimen name="view_view_holder_repo_link_text_view_text_size">11sp</dimen>
+	<dimen name="view_view_holder_a_cimplementation_otext_view_text_size">13sp</dimen>
+	<dimen name="view_view_holder_author_text_view_text_size">13sp</dimen>
+	<dimen name="view_view_holder_repo_name_text_view_text_size">17sp</dimen>
+	<dimen name="repositories_activity_search_constraint_layout_radius">8dp</dimen>
+	<dimen name="repositories_activity_search_constraint_layout_border_size">1dp</dimen>
+	<dimen name="repositories_activity_search_edit_text_text_size">15sp</dimen>
+	<dimen name="repositories_activity_search_edit_text_height">18dp</dimen>
+	<dimen name="repositories_activity_search_edit_text_margin_start">14dp</dimen>
+	<dimen name="repositories_activity_search_edit_text_margin_end">13dp</dimen>
+	<dimen name="view_view_holder_repo_icon_image_view_margin_start">14dp</dimen>
+	<dimen name="view_view_holder_repo_icon_image_view_margin_top">15dp</dimen>
+	<dimen name="view_view_holder_author_text_view_margin_start">17dp</dimen>
+	<dimen name="view_view_holder_author_text_view_margin_top">8dp</dimen>
+	<dimen name="view_view_holder_repo_item_constraint_layout_height">153dp</dimen>
+	<dimen name="view_view_holder_repo_item_constraint_layout_margin_start">12dp</dimen>
+	<dimen name="view_view_holder_repo_item_constraint_layout_margin_top">9dp</dimen>
+	<dimen name="view_view_holder_repo_item_constraint_layout_margin_end">12dp</dimen>
+	<dimen name="view_view_holder_repo_link_text_view_margin_start">14dp</dimen>
+	<dimen name="view_view_holder_repo_link_text_view_margin_bottom">11dp</dimen>
+	<dimen name="repositories_activity_search_constraint_layout_height">47dp</dimen>
+	<dimen name="repositories_activity_search_constraint_layout_margin_start">12dp</dimen>
+	<dimen name="repositories_activity_search_constraint_layout_margin_top">76dp</dimen>
+	<dimen name="repositories_activity_search_constraint_layout_margin_end">12dp</dimen>
+	<dimen name="view_view_holder_a_cimplementation_otext_view_margin_start">14dp</dimen>
+	<dimen name="view_view_holder_a_cimplementation_otext_view_margin_top">15dp</dimen>
+	<dimen name="view_view_holder_a_cimplementation_otext_view_margin_end">12dp</dimen>
+	<dimen name="view_view_holder_repo_name_text_view_margin_start">16dp</dimen>
+	<dimen name="view_view_holder_repo_name_text_view_margin_top">22dp</dimen>
+	<dimen name="view_view_holder_view_height">170dp</dimen>
+	
+	<!-- WelcomeActivity -->
+	<dimen name="welcome_activity_group_button_text_size">17sp</dimen>
+	<dimen name="welcome_activity_repository_searcher_text_view_text_size">17sp</dimen>
+	<dimen name="welcome_activity_github_text_view_text_size">53sp</dimen>
+	<dimen name="welcome_activity_repository_searcher_text_view_margin_top">5dp</dimen>
+	<dimen name="welcome_activity_bitmap_image_view_margin_top">64dp</dimen>
+	<dimen name="welcome_activity_github_text_view_margin_top">15dp</dimen>
+	<dimen name="welcome_activity_group_button_height">52dp</dimen>
+	<dimen name="welcome_activity_group_button_margin_start">21dp</dimen>
+	<dimen name="welcome_activity_group_button_margin_end">20dp</dimen>
+	<dimen name="welcome_activity_group_button_margin_bottom">49dp</dimen>
+</resources>

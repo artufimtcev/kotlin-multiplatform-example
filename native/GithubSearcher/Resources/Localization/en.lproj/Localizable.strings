@@ -1,0 +1,14 @@
+
+
+/* Repositories */
+"RepositoriesViewController.navigationBarTitle" = "Search Repos";
+"ViewThreeTableViewCell.repoLinkLabel" = "https://github.com/dtrupenn/Tetris";
+"ViewThreeTableViewCell.descriptionLabel" = "A C implementation of Tetris using Pennsim through LC4";
+"ViewThreeTableViewCell.authorLabel" = "Author: dtrupenn";
+"ViewThreeTableViewCell.repoNameLabel" = "Some Awesome GitHub Repo";
+
+
+/* Welcome */
+"Welcome.loginButtonButton" = "Start Searching";
+"Welcome.subtitleLabel" = "Repository Searcher";
+"Welcome.titleLabel" = "GitHub";

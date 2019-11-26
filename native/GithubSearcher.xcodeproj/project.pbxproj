@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E95F32AF4A54DCD60F6E81 /* UIImage+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F83805FC120DC4BF3B72DB /* UIImage+Utility.swift */; };
+		0F0397BB936225A852A07133 /* SupernovaLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ACA7171EE37C6A9F3090B2 /* SupernovaLabel.swift */; };
+		0F298C218075DBC165361E96 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A59E36944D6B869326A9D27 /* Roboto-Regular.ttf */; };
+		18C878CB84300DDC27AC5416 /* UISearchBar+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF44F192DD9A0C72765828EF /* UISearchBar+Utility.swift */; };
+		3AB088BB9434B86E57C6CC88 /* SupernovaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80BD0A784FD669D421011A4 /* SupernovaButton.swift */; };
+		4B53E610E681733DAB30D127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F804342438BA3F46B1C9A0DE /* Main.storyboard */; };
+		879B0AE9396994D330795017 /* UITabBarController+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16064742AD7304CA4DC3F70C /* UITabBarController+Utility.swift */; };
+		8B113B1A35D1D8AE4765129E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59B42502F6BB4E49FD0B676 /* AppDelegate.swift */; };
+		8E0A036913550CF0E60EDD28 /* NSMutableParagraphStyle+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA4202544AA233040828119 /* NSMutableParagraphStyle+Utility.swift */; };
+		91B5A469F23235068C0D8821 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C87126DE6E1E8B3A6109D7 /* WelcomeViewController.swift */; };
+		A16E1DFCCF8B2D65E702E6D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D198CB1BBCF8EC30B4F83041 /* Images.xcassets */; };
+		B0F429C3238D2B410083344E /* core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F429C2238D2B410083344E /* core.framework */; };
+		B0F429C4238D2B410083344E /* core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0F429C2238D2B410083344E /* core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C050DAEFA5D2AD16ADE5365E /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A404EA9481E43477F492EB5E /* Roboto-Bold.ttf */; };
+		C690B72C677639DC4FF46986 /* SupernovaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A995FDCA42D4F28AA3EB578 /* SupernovaTextField.swift */; };
+		D2A2378B47A447ACE9B8DDF0 /* UILabel+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517EDE9E214F8361AC747D5 /* UILabel+Utility.swift */; };
+		DABDD7A694D8C3DE2B90372E /* UINavigationController+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEC91866AB008207496181B /* UINavigationController+Utility.swift */; };
+		E2D7BC87C46C0A5B4F0F4469 /* ViewThreeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F569FCD94A91963B34141944 /* ViewThreeTableViewCell.swift */; };
+		E54AF006C6533882635E953F /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02C3B889C44480A45F0C6D6F /* Roboto-Light.ttf */; };
+		F2E2D63682711CF866539A77 /* RepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6FC6B65F20733708495E36 /* RepositoriesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B0F429C5238D2B410083344E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B0F429C4238D2B410083344E /* core.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02C3B889C44480A45F0C6D6F /* Roboto-Light.ttf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.font; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		08F83805FC120DC4BF3B72DB /* UIImage+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Utility.swift"; sourceTree = "<group>"; };
+		0B6093BE1E68BCDD00C80262 /* GithubSearcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubSearcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16064742AD7304CA4DC3F70C /* UITabBarController+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+Utility.swift"; sourceTree = "<group>"; };
+		1A995FDCA42D4F28AA3EB578 /* SupernovaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupernovaTextField.swift; sourceTree = "<group>"; };
+		6A59E36944D6B869326A9D27 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.font; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		96B47B7E73E1E3DBFABA3268 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Info.plist; sourceTree = "<group>"; };
+		9D6FC6B65F20733708495E36 /* RepositoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesViewController.swift; sourceTree = "<group>"; };
+		A404EA9481E43477F492EB5E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.font; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		A59B42502F6BB4E49FD0B676 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7ACA7171EE37C6A9F3090B2 /* SupernovaLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupernovaLabel.swift; sourceTree = "<group>"; };
+		ADEC91866AB008207496181B /* UINavigationController+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Utility.swift"; sourceTree = "<group>"; };
+		B0F429C2238D2B410083344E /* core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = core.framework; path = "../core/build/xcode-frameworks/core.framework"; sourceTree = "<group>"; };
+		BCA4202544AA233040828119 /* NSMutableParagraphStyle+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableParagraphStyle+Utility.swift"; sourceTree = "<group>"; };
+		BF44F192DD9A0C72765828EF /* UISearchBar+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Utility.swift"; sourceTree = "<group>"; };
+		C517EDE9E214F8361AC747D5 /* UILabel+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Utility.swift"; sourceTree = "<group>"; };
+		D198CB1BBCF8EC30B4F83041 /* Images.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D80BD0A784FD669D421011A4 /* SupernovaButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupernovaButton.swift; sourceTree = "<group>"; };
+		D8C87126DE6E1E8B3A6109D7 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F569FCD94A91963B34141944 /* ViewThreeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewThreeTableViewCell.swift; sourceTree = "<group>"; };
+		F804342438BA3F46B1C9A0DE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B6093BB1E68BCDD00C80262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F429C3238D2B410083344E /* core.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D0CECA0EE97C5911F58F55 /* RepositoriesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9D6FC6B65F20733708495E36 /* RepositoriesViewController.swift */,
+				F569FCD94A91963B34141944 /* ViewThreeTableViewCell.swift */,
+			);
+			path = RepositoriesViewController;
+			sourceTree = "<group>";
+		};
+		0B28DFD01E40CD2E00BF6E7C = {
+			isa = PBXGroup;
+			children = (
+				0B28DFDA1E40CD2E00BF6E7C /* Products */,
+				1F653DEE3D5E4E863573DDA4 /* GithubSearcher */,
+				B0F429C1238D2B410083344E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B28DFDA1E40CD2E00BF6E7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B6093BE1E68BCDD00C80262 /* GithubSearcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F18150444CB032AABA82D3D /* WelcomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D8C87126DE6E1E8B3A6109D7 /* WelcomeViewController.swift */,
+			);
+			path = WelcomeViewController;
+			sourceTree = "<group>";
+		};
+		1F653DEE3D5E4E863573DDA4 /* GithubSearcher */ = {
+			isa = PBXGroup;
+			children = (
+				F8D34E8033DACF0645F937C7 /* Classes */,
+				F37326D7A170965B2740A5DF /* Resources */,
+				76E3980BB2AD42F56D84C8DD /* Supporting Files */,
+			);
+			path = GithubSearcher;
+			sourceTree = "<group>";
+		};
+		37D6B3300E9E8DBC07A9BB06 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5FA2E616454820F619FA7C64 /* TabBarControllers */,
+				04D0CECA0EE97C5911F58F55 /* RepositoriesViewController */,
+				0F18150444CB032AABA82D3D /* WelcomeViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D7B460A3A3C184AB854873C /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				F804342438BA3F46B1C9A0DE /* Main.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		5FA2E616454820F619FA7C64 /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		619E1310066511B272EE5E2E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A404EA9481E43477F492EB5E /* Roboto-Bold.ttf */,
+				6A59E36944D6B869326A9D27 /* Roboto-Regular.ttf */,
+				02C3B889C44480A45F0C6D6F /* Roboto-Light.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		76E3980BB2AD42F56D84C8DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96B47B7E73E1E3DBFABA3268 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99E69BE1ED0ACD7793DCD961 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		B0F429C1238D2B410083344E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0F429C2238D2B410083344E /* core.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCEEA6B3DDCB316825B2ED47 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BCA4202544AA233040828119 /* NSMutableParagraphStyle+Utility.swift */,
+				D80BD0A784FD669D421011A4 /* SupernovaButton.swift */,
+				1A995FDCA42D4F28AA3EB578 /* SupernovaTextField.swift */,
+				A7ACA7171EE37C6A9F3090B2 /* SupernovaLabel.swift */,
+				08F83805FC120DC4BF3B72DB /* UIImage+Utility.swift */,
+				C517EDE9E214F8361AC747D5 /* UILabel+Utility.swift */,
+				ADEC91866AB008207496181B /* UINavigationController+Utility.swift */,
+				BF44F192DD9A0C72765828EF /* UISearchBar+Utility.swift */,
+				16064742AD7304CA4DC3F70C /* UITabBarController+Utility.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EA5C75359B3FEE47C60B5C4A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D198CB1BBCF8EC30B4F83041 /* Images.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F37326D7A170965B2740A5DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				619E1310066511B272EE5E2E /* Fonts */,
+				EA5C75359B3FEE47C60B5C4A /* Images */,
+				4D7B460A3A3C184AB854873C /* Interface */,
+				99E69BE1ED0ACD7793DCD961 /* Localization */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F8D34E8033DACF0645F937C7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				37D6B3300E9E8DBC07A9BB06 /* Controllers */,
+				DCEEA6B3DDCB316825B2ED47 /* Extensions */,
+				A59B42502F6BB4E49FD0B676 /* AppDelegate.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B6093BD1E68BCDD00C80262 /* GithubSearcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B6093D11E68BCDD00C80262 /* Build configuration list for PBXNativeTarget "GithubSearcher" */;
+			buildPhases = (
+				B0F429C6238D2B7F0083344E /* Build Kotlin Module */,
+				0B6093BA1E68BCDD00C80262 /* Sources */,
+				0B6093BB1E68BCDD00C80262 /* Frameworks */,
+				0B6093BC1E68BCDD00C80262 /* Resources */,
+				B0F429C5238D2B410083344E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GithubSearcher;
+			productName = Production;
+			productReference = 0B6093BE1E68BCDD00C80262 /* GithubSearcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B28DFD11E40CD2E00BF6E7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "[Company]";
+				TargetAttributes = {
+					0B6093BD1E68BCDD00C80262 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0B28DFD41E40CD2E00BF6E7C /* Build configuration list for PBXProject "GithubSearcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 0B28DFD01E40CD2E00BF6E7C;
+			productRefGroup = 0B28DFDA1E40CD2E00BF6E7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B6093BD1E68BCDD00C80262 /* GithubSearcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B6093BC1E68BCDD00C80262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C050DAEFA5D2AD16ADE5365E /* Roboto-Bold.ttf in Resources */,
+				4B53E610E681733DAB30D127 /* Main.storyboard in Resources */,
+				A16E1DFCCF8B2D65E702E6D1 /* Images.xcassets in Resources */,
+				E54AF006C6533882635E953F /* Roboto-Light.ttf in Resources */,
+				0F298C218075DBC165361E96 /* Roboto-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0F429C6238D2B7F0083344E /* Build Kotlin Module */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Kotlin Module";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd \"$SRCROOT/../core/build/xcode-frameworks\"\n./gradlew :core:packForXCode -PXCODE_CONFIGURATION=${CONFIGURATION}\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B6093BA1E68BCDD00C80262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0A036913550CF0E60EDD28 /* NSMutableParagraphStyle+Utility.swift in Sources */,
+				C690B72C677639DC4FF46986 /* SupernovaTextField.swift in Sources */,
+				879B0AE9396994D330795017 /* UITabBarController+Utility.swift in Sources */,
+				91B5A469F23235068C0D8821 /* WelcomeViewController.swift in Sources */,
+				00E95F32AF4A54DCD60F6E81 /* UIImage+Utility.swift in Sources */,
+				D2A2378B47A447ACE9B8DDF0 /* UILabel+Utility.swift in Sources */,
+				18C878CB84300DDC27AC5416 /* UISearchBar+Utility.swift in Sources */,
+				8B113B1A35D1D8AE4765129E /* AppDelegate.swift in Sources */,
+				3AB088BB9434B86E57C6CC88 /* SupernovaButton.swift in Sources */,
+				E2D7BC87C46C0A5B4F0F4469 /* ViewThreeTableViewCell.swift in Sources */,
+				F2E2D63682711CF866539A77 /* RepositoriesViewController.swift in Sources */,
+				DABDD7A694D8C3DE2B90372E /* UINavigationController+Utility.swift in Sources */,
+				0F0397BB936225A852A07133 /* SupernovaLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B28DFE91E40CD2E00BF6E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B28DFEA1E40CD2E00BF6E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B6093CF1E68BCDD00C80262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../core/build/xcode-frameworks";
+				INFOPLIST_FILE = "$(SRCROOT)/GithubSearcher/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.kotlin.everywhere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B6093D01E68BCDD00C80262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../core/build/xcode-frameworks";
+				INFOPLIST_FILE = "$(SRCROOT)/GithubSearcher/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.kotlin.everywhere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B28DFD41E40CD2E00BF6E7C /* Build configuration list for PBXProject "GithubSearcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B28DFE91E40CD2E00BF6E7C /* Debug */,
+				0B28DFEA1E40CD2E00BF6E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B6093D11E68BCDD00C80262 /* Build configuration list for PBXNativeTarget "GithubSearcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6093CF1E68BCDD00C80262 /* Debug */,
+				0B6093D01E68BCDD00C80262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B28DFD11E40CD2E00BF6E7C /* Project object */;
+}

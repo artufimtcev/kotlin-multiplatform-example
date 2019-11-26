@@ -1,0 +1,76 @@
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/welcome_constraint_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/welcome_activity_welcome_constraint_layout_background_color">
+
+	<Button
+		android:id="@+id/group_button"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/welcome_activity_group_button_height"
+		android:layout_marginBottom="@dimen/welcome_activity_group_button_margin_bottom"
+		android:layout_marginEnd="@dimen/welcome_activity_group_button_margin_end"
+		android:layout_marginStart="@dimen/welcome_activity_group_button_margin_start"
+		android:background="@drawable/welcome_activity_group_button_ripple"
+		android:fontFamily="@font/font_roboto_bold"
+		android:gravity="center"
+		android:text="@string/welcome_activity_group_button_text"
+		android:textColor="@color/welcome_activity_group_button_text_color"
+		android:textSize="@dimen/welcome_activity_group_button_text_size"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintHorizontal_weight="0.89"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		tools:layout_editor_absoluteX="22dp"
+		tools:layout_editor_absoluteY="562dp"/>
+
+	<TextView
+		android:id="@+id/repository_searcher_text_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/welcome_activity_repository_searcher_text_view_margin_top"
+		android:fontFamily="@font/font_roboto_bold"
+		android:gravity="center"
+		android:letterSpacing="0"
+		android:text="@string/welcome_activity_repository_searcher_text_view_text"
+		android:textColor="@color/welcome_activity_repository_searcher_text_view_text_color"
+		android:textSize="@dimen/welcome_activity_repository_searcher_text_view_text_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/github_text_view"
+		tools:layout_editor_absoluteX="105dp"
+		tools:layout_editor_absoluteY="317dp"/>
+
+	<TextView
+		android:id="@+id/github_text_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/welcome_activity_github_text_view_margin_top"
+		android:fontFamily="@font/font_roboto_bold"
+		android:gravity="center"
+		android:letterSpacing="0"
+		android:text="@string/welcome_activity_github_text_view_text"
+		android:textColor="@color/welcome_activity_github_text_view_text_color"
+		android:textSize="@dimen/welcome_activity_github_text_view_text_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/bitmap_image_view"
+		tools:layout_editor_absoluteX="101dp"
+		tools:layout_editor_absoluteY="246dp"/>
+
+	<ImageView
+		android:id="@+id/bitmap_image_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/welcome_activity_bitmap_image_view_margin_top"
+		android:scaleType="centerCrop"
+		android:src="@drawable/bitmap"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="90dp"
+		tools:layout_editor_absoluteY="67dp"/>
+</android.support.constraint.ConstraintLayout>

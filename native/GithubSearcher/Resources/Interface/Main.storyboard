@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="EXu-pF-Pyd">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Light.ttf">
+            <string>Roboto-Light</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Repositories View Controller-->
+        <scene sceneID="xw5-ld-LkV">
+            <objects>
+                <viewController id="gTx-II-J5p" customClass="RepositoriesViewController" customModule="GithubSearcher" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eKt-XW-Mxg"/>
+                        <viewControllerLayoutGuide type="bottom" id="NrR-SR-IVL"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="UMt-7N-vme">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="0.0" sectionFooterHeight="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="Qxb-zx-773">
+                                <rect key="frame" x="0.0" y="123" width="375" height="544"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <prototypes>
+                                    <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ViewThreeTableViewCell" rowHeight="167" id="qey-4Y-hZb" customClass="ViewThreeTableViewCell" customModule="GithubSearcher" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="167"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qey-4Y-hZb" id="BCd-kt-nTY">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="167"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7QS-uy-S5I">
+                                                    <rect key="frame" x="13" y="5" width="350" height="158"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="https://github.com/dtrupenn/Tetris" lineBreakMode="tailTruncation" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3iI-fU-30v">
+                                                            <rect key="frame" x="15" y="134" width="188" height="14"/>
+                                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                                            <color key="textColor" red="0.01443491131067276" green="0.40142551064491272" blue="0.84085232019424438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="A C implementation of Tetris using Pennsim through LC4" lineBreakMode="tailTruncation" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOW-Zw-iIi">
+                                                            <rect key="frame" x="15" y="88" width="324" height="32"/>
+                                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="324" id="Hhm-kN-Ciq"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                            <color key="textColor" red="0.14117647707462311" green="0.16078431904315948" blue="0.18039216101169586" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author: dtrupenn" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4S-gi-m2U">
+                                                            <rect key="frame" x="89" y="52.5" width="102.5" height="16.5"/>
+                                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto Light" pointSize="14"/>
+                                                            <color key="textColor" red="0.62184280157089233" green="0.64636963605880737" blue="0.67790418863296509" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Some Awesome GitHub Repo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cK5-Gk-0YZ">
+                                                            <rect key="frame" x="88.5" y="23" width="237.5" height="21.5"/>
+                                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="18"/>
+                                                            <color key="textColor" red="0.14117647707462311" green="0.16078431904315948" blue="0.18039216101169586" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </label>
+                                                        <imageView opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="repo-icon" translatesAutoresizingMaskIntoConstraints="NO" id="5NW-QF-zF2">
+                                                            <rect key="frame" x="15" y="16" width="56" height="56"/>
+                                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstItem="dOW-Zw-iIi" firstAttribute="top" secondItem="5NW-QF-zF2" secondAttribute="bottom" constant="16" id="GDx-VA-xy9"/>
+                                                        <constraint firstItem="cK5-Gk-0YZ" firstAttribute="top" secondItem="7QS-uy-S5I" secondAttribute="top" constant="23" id="I0t-f2-lp0"/>
+                                                        <constraint firstItem="5NW-QF-zF2" firstAttribute="leading" secondItem="7QS-uy-S5I" secondAttribute="leading" constant="15" id="PbY-CX-aKF"/>
+                                                        <constraint firstItem="5NW-QF-zF2" firstAttribute="top" secondItem="7QS-uy-S5I" secondAttribute="top" constant="16" id="TE5-54-vWh"/>
+                                                        <constraint firstItem="dOW-Zw-iIi" firstAttribute="leading" secondItem="7QS-uy-S5I" secondAttribute="leading" constant="15" id="W1U-sc-TNG"/>
+                                                        <constraint firstItem="3iI-fU-30v" firstAttribute="leading" secondItem="7QS-uy-S5I" secondAttribute="leading" constant="15" id="XHF-2g-Gdp"/>
+                                                        <constraint firstAttribute="height" constant="158" id="dkQ-9S-4PA"/>
+                                                        <constraint firstItem="cK5-Gk-0YZ" firstAttribute="leading" secondItem="5NW-QF-zF2" secondAttribute="trailing" constant="17.5" id="dm7-CW-Fww"/>
+                                                        <constraint firstAttribute="bottom" secondItem="3iI-fU-30v" secondAttribute="bottom" constant="10" id="eOU-uh-wtD"/>
+                                                        <constraint firstItem="E4S-gi-m2U" firstAttribute="top" secondItem="cK5-Gk-0YZ" secondAttribute="bottom" constant="8" id="fJo-HI-IGV"/>
+                                                        <constraint firstItem="E4S-gi-m2U" firstAttribute="leading" secondItem="5NW-QF-zF2" secondAttribute="trailing" constant="18" id="mlj-S5-WVI"/>
+                                                        <constraint firstAttribute="trailing" secondItem="dOW-Zw-iIi" secondAttribute="trailing" constant="11" id="ssp-5D-KTD"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="7QS-uy-S5I" firstAttribute="leading" secondItem="BCd-kt-nTY" secondAttribute="leading" constant="13" id="K3C-5c-hY3"/>
+                                                <constraint firstAttribute="bottom" secondItem="7QS-uy-S5I" secondAttribute="bottom" constant="4" id="Wfb-KC-Bcz"/>
+                                                <constraint firstAttribute="trailing" secondItem="7QS-uy-S5I" secondAttribute="trailing" constant="12" id="X15-9J-lMd"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="authorLabel" destination="E4S-gi-m2U" id="ToM-Lm-OwN"/>
+                                            <outlet property="descriptionLabel" destination="dOW-Zw-iIi" id="LBV-SJ-N0f"/>
+                                            <outlet property="repoItemView" destination="7QS-uy-S5I" id="1UZ-VC-6zx"/>
+                                            <outlet property="repoLinkLabel" destination="3iI-fU-30v" id="Pa3-JC-Bgn"/>
+                                            <outlet property="repoNameLabel" destination="cK5-Gk-0YZ" id="WtV-QE-Iwp"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="gTx-II-J5p" id="8ekDEQkBbQqG0aLrIz3S"/>
+                                    <outlet property="delegate" destination="gTx-II-J5p" id="vqgVrSjzF4OggSw58EjU"/>
+                                </connections>
+                            </tableView>
+                            <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lvp-g9-lJK">
+                                <rect key="frame" x="12" y="60" width="351" height="48"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search…" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xgB-Cf-Y9M">
+                                        <rect key="frame" x="15" y="15" width="320" height="19"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.3490196168422699" green="0.37647059559822083" blue="0.4117647111415863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="gTx-II-J5p" id="4zj-Fd-KfS"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="xgB-Cf-Y9M" firstAttribute="leading" secondItem="Lvp-g9-lJK" secondAttribute="leading" constant="15" id="HbS-wq-YjN"/>
+                                    <constraint firstItem="xgB-Cf-Y9M" firstAttribute="centerY" secondItem="Lvp-g9-lJK" secondAttribute="centerY" id="YV6-Ta-qK2"/>
+                                    <constraint firstAttribute="trailing" secondItem="xgB-Cf-Y9M" secondAttribute="trailing" constant="14" id="cFR-hc-cOI"/>
+                                    <constraint firstAttribute="height" constant="48" id="wJX-es-xcb"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96421700716018677" green="0.97258228063583374" blue="0.98072105646133423" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Qxb-zx-773" secondAttribute="trailing" id="3DN-Jx-Tu6"/>
+                            <constraint firstAttribute="bottom" secondItem="Qxb-zx-773" secondAttribute="bottom" id="Bhc-8h-iYP"/>
+                            <constraint firstItem="Qxb-zx-773" firstAttribute="top" secondItem="Lvp-g9-lJK" secondAttribute="bottom" constant="15" id="E5z-BZ-Asq"/>
+                            <constraint firstItem="Lvp-g9-lJK" firstAttribute="leading" secondItem="UMt-7N-vme" secondAttribute="leading" constant="12" id="PI9-el-LsQ"/>
+                            <constraint firstAttribute="trailing" secondItem="Lvp-g9-lJK" secondAttribute="trailing" constant="12" id="fhb-Xr-0kq"/>
+                            <constraint firstItem="Qxb-zx-773" firstAttribute="leading" secondItem="UMt-7N-vme" secondAttribute="leading" id="h60-qZ-cJU"/>
+                            <constraint firstItem="Lvp-g9-lJK" firstAttribute="top" secondItem="eKt-XW-Mxg" secondAttribute="bottom" constant="16" id="uYm-pl-QE5"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" id="m8L-KO-Sgc"/>
+                    <connections>
+                        <outlet property="searchTextField" destination="xgB-Cf-Y9M" id="k9P-jV-ocO"/>
+                        <outlet property="searchView" destination="Lvp-g9-lJK" id="XNg-bd-7N0"/>
+                        <outlet property="viewTableView" destination="Qxb-zx-773" id="EXK-cT-1vu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kpe-nf-XAp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="237" y="0.0"/>
+        </scene>
+        <!--Welcome View Controller-->
+        <scene sceneID="DKa-6D-pkg">
+            <objects>
+                <viewController id="cju-Tl-wdC" customClass="WelcomeViewController" customModule="GithubSearcher" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="esH-2F-2x8"/>
+                        <viewControllerLayoutGuide type="bottom" id="8MS-Io-mcy"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="YOy-Vr-zM7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Hw-qN-cRe" customClass="SupernovaButton" customModule="GithubSearcher" customModuleProvider="target">
+                                <rect key="frame" x="22" y="562" width="332" height="54"/>
+                                <color key="backgroundColor" red="0.21960784494876862" green="0.7137255072593689" blue="0.32941177487373352" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="7e2-Xa-gcZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="18"/>
+                                <state key="normal" title="Start Searching">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onLoginButtonPressed:" destination="cju-Tl-wdC" eventType="touchUpInside" id="jwf-Yk-bc5"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Repository Searcher" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXm-dT-50S">
+                                <rect key="frame" x="105" y="317" width="166" height="21"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="18"/>
+                                <color key="textColor" red="0.3490196168422699" green="0.37647059559822083" blue="0.4117647111415863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GitHub" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lu6-tk-PZP">
+                                <rect key="frame" x="99" y="409" width="177.5" height="65.5"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="56"/>
+                                <color key="textColor" red="0.14117647707462311" green="0.16078431904315948" blue="0.18039216101169586" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="github-logo" translatesAutoresizingMaskIntoConstraints="NO" id="B5v-8C-oxB">
+                                <rect key="frame" x="-8.5" y="67" width="392" height="326"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YXm-dT-50S" firstAttribute="centerX" secondItem="YOy-Vr-zM7" secondAttribute="centerX" id="PHN-te-kNt"/>
+                            <constraint firstItem="B5v-8C-oxB" firstAttribute="top" secondItem="YOy-Vr-zM7" secondAttribute="top" constant="67" id="Qhv-zt-zUp"/>
+                            <constraint firstAttribute="trailing" secondItem="6Hw-qN-cRe" secondAttribute="trailing" constant="21" id="d2J-C5-NhE"/>
+                            <constraint firstAttribute="bottom" secondItem="6Hw-qN-cRe" secondAttribute="bottom" constant="51" id="fNq-6X-TwT"/>
+                            <constraint firstItem="YXm-dT-50S" firstAttribute="top" secondItem="Lu6-tk-PZP" secondAttribute="bottom" constant="5" id="fp3-Ik-YtY"/>
+                            <constraint firstItem="Lu6-tk-PZP" firstAttribute="centerX" secondItem="YOy-Vr-zM7" secondAttribute="centerX" id="mw4-Xt-IAL"/>
+                            <constraint firstItem="6Hw-qN-cRe" firstAttribute="leading" secondItem="YOy-Vr-zM7" secondAttribute="leading" constant="22" id="nuj-q7-a4i"/>
+                            <constraint firstItem="Lu6-tk-PZP" firstAttribute="top" secondItem="B5v-8C-oxB" secondAttribute="bottom" constant="16" id="pb7-Xz-yXN"/>
+                            <constraint firstItem="B5v-8C-oxB" firstAttribute="centerX" secondItem="YOy-Vr-zM7" secondAttribute="centerX" id="tT4-dl-V6c"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" id="mj3-BU-YOa"/>
+                    <connections>
+                        <outlet property="loginButtonButton" destination="6Hw-qN-cRe" id="PqV-Qg-svW"/>
+                        <outlet property="subtitleLabel" destination="YXm-dT-50S" id="2ls-k5-pSZ"/>
+                        <outlet property="titleLabel" destination="Lu6-tk-PZP" id="M6I-6K-XyD"/>
+                        <segue destination="gTx-II-J5p" kind="show" identifier="Push Repositories" id="A5k-pY-n9p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="17V-Dt-yKn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-407" y="0.0"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8Ir-lf-Dxe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EXu-pF-Pyd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MdI-Qg-AIB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="cju-Tl-wdC" kind="relationship" relationship="rootViewController" id="xQy-HS-jFj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pax-so-vmu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1063" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="github-logo" width="196" height="163"/>
+        <image name="repo-icon" width="56" height="56"/>
+    </resources>
+</document>

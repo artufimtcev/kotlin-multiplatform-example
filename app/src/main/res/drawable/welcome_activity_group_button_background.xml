@@ -1,0 +1,9 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<gradient
+		android:angle="0"
+		android:centerX="0.5"
+		android:centerY="0.5"
+		android:endColor="@color/welcome_activity_group_button_to_color"
+		android:startColor="@color/welcome_activity_group_button_from_color"/>
+</shape>
